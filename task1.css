@@ -1,0 +1,230 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color:#edede9;
+    position: static;
+}
+
+#nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+    transition: background-color 0.5s ease;
+}
+
+#nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+#nav li {
+    margin-right: 20px;
+
+}
+
+#nav a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.5s ease;
+
+}
+
+#nav a:hover {
+    color: #ccc;
+}
+
+#nav.scrolled {
+    background-color: #444;
+    
+}
+
+#nav li:hover {
+    background-color: #555;
+   
+}
+
+#nav.scrolled a {
+    color: #ddd;
+}
+
+#nav.scrolled a:hover {
+    color: #fff;
+}
+.interfaceui{
+    position: absolute;
+    margin-top: -20px;
+width: 213vmin;
+height: 90vmin;
+z-index: -1;
+opacity: 0.6;
+}
+.brandname{
+   margin-left: 5px;
+    margin-top: 50px;
+    color: #3e4348;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-style: italic;
+text-shadow: 1px 1px 2px rgb(66, 62, 62), 0 0 25px rgb(158, 158, 170), 0 0 5px rgb(210, 210, 223);
+display: block;
+}
+#home{
+    
+padding: 1px;
+border-bottom: 1px solid black;
+}
+.headline{
+color: #040404;
+font-size: 34x;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+margin-top: 200px;
+padding: 23px;
+font-style: oblique;
+text-align: center;
+text-shadow: #444;
+align-items: center;
+}
+.paraline{
+    margin-top:-20px ;
+font-size: 24px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+text-align: center;
+align-items: center;
+}
+#allssimg{
+    margin-top: 150px;
+    display: flex;   
+     align-items: center;
+     text-align: center; 
+}
+.ssimg{
+    margin: 18px;
+    padding: 10px;
+width: 322px;
+height: 310px;
+}
+.ssimg:hover{
+    border: 1px solid black;
+
+}
+.box1 .box2 .box3{
+box-shadow: 2px 2px;
+}
+.hometext{
+color:#343a40;
+font-size: 18px;
+font-style: initial;
+font-family: Georgia, 'Times New Roman', Times, serif;
+background-color: #ddd;
+text-align: center;
+align-items: center;
+display: flex;
+}
+
+.addline{
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: #ccc;
+background-color: #444;
+}
+.shortmsg{
+background-color: #6c757d;
+color: #edede9;
+font-size: 25px;
+text-align: center;
+align-items: center;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.explore{
+color: #dee2e6;
+background-color: black;
+text-align: center;
+align-items: center;
+font-size: 25px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.contstuffs{
+    display: flex;
+}
+.contstuff{
+display: inline-block;
+align-items: center;
+text-align: center;
+margin: 10px;
+padding: 4px;
+color: #edede9;
+background-color: #050606;
+}
+.contstuff:hover{
+border:1px solid white;
+}
+.stuff{
+    width: 350px;
+height: 400px;
+}
+#about{
+background-color: #d9dce0;
+color: rgb(24, 23, 23);
+border-bottom: 2px rgb(212, 204, 204);
+text-align: center;
+align-items: center;
+}
+.aboutus{
+font: 12px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+align-items: center;
+text-align: center;
+}
+.note {
+  background-color: #0d0d0d;
+    border: none;
+    text-align: center;
+    align-items: center;
+    font-size: 15px;
+    color: #fffefe;
+    padding: 20px;
+    width: 1097px;
+    height: 50px;
+}
+#contact{
+width: 213vmin;
+height: 30vmin;
+background-color: black;
+color: white;
+}
+.mark{
+color: rgb(13, 31, 111);
+}
+.div1{
+float: left;
+}
+.contactdiv{
+    font-size: 15px;
+    margin: 12px;
+padding: 12px;
+}
+.div2{
+    margin-top: -135px ;
+    margin-right: 80px;
+float: right;
+}
+.pwst{
+color: #d9dce0;
+font-size: 15px;
+display: flex;
+text-align: right;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.dotnote{
+color:rgb(242, 241, 241);
+font-size: 10px;
+font-family: Arial, Helvetica, sans-serif;
+}
